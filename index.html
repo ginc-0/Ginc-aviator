@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ginc Aviator Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="loadUser()">
+  <div class="container">
+    <h1>✈️ Ginc Aviator</h1>
+    <p id="welcome"></p>
+    <p>💰 Balance: KES <span id="balance">0</span></p>
+    <div id="multiplier">x1.00</div>
+    <input type="number" id="betAmount" placeholder="Enter Bet Amount" />
+    <button onclick="startGame()">Start</button>
+    <button onclick="cashOut()">Cash Out</button>
+    <button onclick="logout()">Logout</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
